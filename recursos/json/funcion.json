@@ -1,0 +1,74 @@
+{
+    "portafolio" : [
+        {
+            "id" : 1,
+            "rutaImg": "../img/laptop-3.jpg",
+            "nombre" : "laptop Asus",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$1300"
+        },
+        {
+            "id" : 2,
+            "rutaImg": "../img/laptop-4.jpg",
+            "nombre" : "laptop Alienware",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$1300"
+        },
+        {
+            "id" : 3,
+            "rutaImg": "../img/pc-1.jpg",
+            "nombre" : "PC Alienware",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$2200"
+        },
+        {
+            "id" : 4,
+            "rutaImg": "../img/pc-2.jpg",
+            "nombre" : "PC HP",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$1800"
+        },
+        {
+            "id" : 5,
+            "rutaImg": "../img/laptop-3.jpg",
+            "nombre" : "laptop Acer",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$1800"
+        },
+        {
+            "id" : 6,
+            "rutaImg": "../img/laptop-4.jpg",
+            "nombre" : "laptop MSI",
+            "desc" : "laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX,16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10",
+            "precio" : "$2000"
+        },
+        {
+            "id" : 7,
+            "rutaImg": "../img/teclado-1.jpg",
+            "nombre" : "Teclado",
+            "desc" : "Teclado compacto para juegos con cable USB de 87 teclas, teclado LED de arco iris, retroiluminado sin teclas, teclado TKL, teclado RGB para juegos para laptop, PS4, Xbox PC, juego y trabajo",
+            "precio" : "$200"
+        },
+        {
+            "id" : 8,
+            "rutaImg": "../img/teclado-2.jpg",
+            "nombre" : "Teclado",
+            "desc" : "Teclado compacto para juegos con cable USB de 87 teclas, teclado LED de arco iris, retroiluminado sin teclas, teclado TKL, teclado RGB para juegos para laptop, PS4, Xbox PC, juego y trabajo",
+            "precio" : "$300"
+        },
+        {
+            "id" : 9,
+            "rutaImg": "../img/teclado-3.jpg",
+            "nombre" : "Teclado",
+            "desc" : "Teclado compacto para juegos con cable USB de 87 teclas, teclado LED de arco iris, retroiluminado sin teclas, teclado TKL, teclado RGB para juegos para laptop, PS4, Xbox PC, juego y trabajo",
+            "precio" : "$320"
+        },
+        {
+            "id" : 10,
+            "rutaImg": "../img/teclado-4.jpg",
+            "nombre" : "Teclado",
+            "desc" : "Teclado compacto para juegos con cable USB de 87 teclas, teclado LED de arco iris, retroiluminado sin teclas, teclado TKL, teclado RGB para juegos para laptop, PS4, Xbox PC, juego y trabajo",
+            "precio" : "$400"
+        }
+    ]
+}

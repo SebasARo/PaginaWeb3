@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecSystems</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="https://kit.fontawesome.com/0f4dc4da4f.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="head">
+        <div>
+            <a href="#"><img src="./recursos/icons/logo.jpg" alt="Logo de empresa" class="logo"></a>
+
+        </div>
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#producto">Productos</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contact-form">Acercade</a>
+        </nav>
+    </div>
+    <header>
+        <div class="contenedor-texto">
+            <div class="texto">
+                <h1 class="animate__animated animate__backInDown animate__delay-0.5s">TecSystems</h1>
+                <p class="animate__animated animate__backInDown animate__delay-0.5s">La nueva tienda de laptops y computadora de escritorio</p>
+                <P class="animate__animated animate__backInDown animate__delay-0.5s">En <strong>TecSystems</strong>, encontraras las mejores y ultimas laptos y Pcs gaming del mercado</P>
+            </div>
+        </div>
+    </header>
+
+      <main>
+        <section class="about-container" id="qs">
+            <div>
+                <img src="./recursos/img/img3.jpg"
+                    alt="">
+            </div>
+            <div class="about-text">
+                <h2>TecSystems ¿Quienes somos?</h2>
+                <hr>
+                <p>Bienvenidos a nuestra tienda de venta de laptops y Pc's. Aquí encontrarás una gran variedad de computadoras
+                   a gran precio de fabrica, descuentos y mucho mas.<br><br>
+                    Nuestro espacio está diseñado para brindar u servicio al cliente de la mejor calidad a nuestros clientes.<br><br>
+                    Contamos con varias sucursales al rededor del pais con los productos traidos desde U.S.A.Tambien damos servicios
+                    de reparacion para tu ordenador de escritorio o laptop.<br><br>
+                   Nuestro objetivo es ser una tienda donde puedas encontrar los productos mas nuevos del mercado al mejor precio
+                   y calidad del pais, con atencion al cliente adecuado.<br></p>
+            </div>
+        </section>
+
+        <section id="producto">
+            <h2 class="txt-producto">Nuestro Productos</h2>
+            <div class="btn-compus">
+                <button class="todos">Todos</button>
+                <button class="laptops">Laptops</button>
+                <button class="escritorio">Escritorio</button>
+                <button class="teclados">Teclados</button>
+            </div>
+
+            <div class="productos" id="id">
+                <div class="compu" data-compu="laptop">
+                    <img src="./recursos/img/laptop-1.jpg" alt="laptop">
+                    <h2>Laptop Lenovo</h2>
+                    <p>laptop para juegos, 15.6 pulgadas 300Hz IPS tipo FHD, NVIDIA GeForce RTX 3080, AMD Ryzen 9 5900HX, 
+                        16GB DDR4, 1TB SSD, teclado RGB opti-mecánico por tecla, Windows10</p>
+                        <div class="precio">
+                            <p>$1300</p>
+                            <button><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        </div>
+                    </div>
+           </section> 
+           <script src="./js/producto.js"></script>
+
+           <section id="galeria">
+            <div class="ful-img" id="fulBox">
+                <img src="./recursos/img/img1.jpg" alt="" id="fulImg">
+                <span onclick="closeImg()">X</span>
+            </div>
+                   <!-- <div class="cont-galery"> -->
+            <h1><span>Galeria</span></h1>
+            <div class="img-galery">
+                <img src="./recursos/img/img1.jpg" onclick="openImg(this.src)" alt="">
+                <img src="./recursos/img/img2.jpg" onclick="openImg(this.src)" alt="">
+                <img src="./recursos/img/img3.jpg" onclick="openImg(this.src)" alt="">
+                <img src="./recursos/img/img4.jpg" onclick="openImg(this.src)" alt="">
+                <img src="./recursos/img/img5.jpg" onclick="openImg(this.src)" alt="">
+                <img src="./recursos/img/img6.jpg" onclick="openImg(this.src)" alt="">
+            </div>
+        <!-- </div> -->
+           </section>
+           <script src="./js/galeria.js"></script>
+      </main>
+
+      <form id="contact-form" method="post" action="#">
+        <div class="contact-form">
+            <h2>¡Contactanos!</h2>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+           <script src="./js/js.js"></script> 
+    <footer>
+        <article class="footer-pagina">
+  
+        <div class="Acercade" id="acercade">
+       <div class="pie-cont">
+          <h4>Telefono</h4>
+          <p>+(506) 88-88-88-88</p>
+       </div>
+       <div class="pie-cont">
+          <h4>Email</h4> 
+          <p>TEcComp19@gmail.com</p>
+       </div>
+       <div class="pie-cont">
+          <h4>Dirección</h4>
+          <p>Curridabat, San Jose CR.</p>
+        </div>
+       </div>
+  
+       <div class="pie-pagina">
+        <a href="https://twitter.com/" class="enlace" > 
+          <img src="./Recursos/icons/twitter.png" alt="Twitter" height="40" width="40" class="twitter"></a>
+          </div>
+          <div class="pie-pagina">
+              <a href="https://instagram.com/" class="enlace">
+              <img src="./Recursos/icons/Insta.png" alt="Instagram"height="40" width="40" class="insta" ></a>
+              
+              </div>
+              <div class="pie-pagina">
+                 <a href="https://facebook.com/" class="enlace">
+                  <img src="./Recursos/icons/facebook.png" alt="Facebook"height="40" width="40" class="facebook"></a>
+                  </div>
+              </article>
+  
+              <h4 class="final"><strong> Sebastian Arias Rodriguez </strong></h4> 
+      </footer>
+</body>
+</html>
